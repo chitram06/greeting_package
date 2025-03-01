@@ -1,0 +1,11 @@
+{
+ "compilerOptions": {
+    "declaration": true,//to emit declaration while building the package
+    "declarationDir": "lib/types", //to emit declaration files in this path
+    "target": "ES6", //this tells typescript to transacrip our code to ES6 while building our code
+    "moduleResolution": "node" // whenever it resolves the location of a module, it should do it according to node system
+ },
+ "include": ["src/**/*"],//process all files inside src and its subdirectories
+ "exclude": ["node_modules", "lib"]
+
+}
